@@ -1,4 +1,4 @@
-FROM linuxserver/sabnzbd
+FROM linuxserver/sabnzbd:unstable
 MAINTAINER ullbergm
 
 # install packages
