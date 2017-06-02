@@ -3,9 +3,7 @@ MAINTAINER ullbergm
 
 # install packages
 RUN \
- apt-get update # && 
-
-RUN \
+ apt-get update && \
  apt-get install -y \
 	--no-install-recommends \
 	--no-install-suggests \
